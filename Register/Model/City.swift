@@ -7,7 +7,6 @@
 //
 
 import Foundation
-typealias DICT = Dictionary<AnyHashable, Any>
 class City {
     var cityCode : Int
     var name : String

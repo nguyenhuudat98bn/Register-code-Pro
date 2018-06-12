@@ -9,12 +9,11 @@
 import UIKit
 
 class FinishRegisterViewController: UIViewController {
-    var cityhehe : String?
-    var districhehe : String?
-    var agehehe : String?
+
     @IBOutlet weak var ageText: UITextField!
     @IBOutlet weak var disTrictext: UITextField!
     @IBOutlet weak var cityText: UITextField!
+    @IBOutlet weak var genDertex : UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         if let nameUser = UserDefaults.standard.object(forKey: "City") as? String{
@@ -26,16 +25,10 @@ class FinishRegisterViewController: UIViewController {
         if let ageUser = UserDefaults.standard.object(forKey: "age") as? Int{
             ageText.text = String(ageUser)
         }
-//        if cityhehe != nil{
-//            cityText.text = cityhehe
-//        }
-//        if districhehe != nil{
-//            disTrictext.text = districhehe
-//        }
-//        if agehehe != nil{
-//            ageText.text = agehehe
-//        }
-        // Do any additional setup after loading the view.
+        if let gender = UserDefaults.standard.object(forKey: "Gender") as? String{
+            genDertex.text = gender
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		573DA67C20CE376F001BBFE5 /* FinishRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DA67B20CE376F001BBFE5 /* FinishRegisterViewController.swift */; };
-		573DA68020CE747B001BBFE5 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DA67F20CE747B001BBFE5 /* CustomButton.swift */; };
-		573DA68220CE79D3001BBFE5 /* radioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DA68120CE79D3001BBFE5 /* radioButton.swift */; };
+		573DA68620CE83BB001BBFE5 /* PlistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DA68520CE83BB001BBFE5 /* PlistService.swift */; };
+		573DA68820CE8CA3001BBFE5 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DA68720CE8CA3001BBFE5 /* GenderViewController.swift */; };
 		574D661C20C8D4A600D46A71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574D661B20C8D4A600D46A71 /* AppDelegate.swift */; };
 		574D662120C8D4A600D46A71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574D661F20C8D4A600D46A71 /* Main.storyboard */; };
 		574D662320C8D4A800D46A71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574D662220C8D4A800D46A71 /* Assets.xcassets */; };
@@ -18,17 +18,16 @@
 		574D663020C8D4E400D46A71 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 574D662F20C8D4E400D46A71 /* Cities.plist */; };
 		574D663220C9197500D46A71 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574D663120C9197500D46A71 /* City.swift */; };
 		574D663420C91D3D00D46A71 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574D663320C91D3D00D46A71 /* DataService.swift */; };
-		574D663820C92A8B00D46A71 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574D663720C92A8B00D46A71 /* MasterTableViewController.swift */; };
+		574D663820C92A8B00D46A71 /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574D663720C92A8B00D46A71 /* CitiesTableViewController.swift */; };
 		574D663D20C92CB100D46A71 /* Districts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574D663C20C92CB100D46A71 /* Districts.swift */; };
 		574D663F20C930A300D46A71 /* DistrictsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574D663E20C930A300D46A71 /* DistrictsTableViewController.swift */; };
-		57CBFAE420CA2083004ED51D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CBFAE320CA2083004ED51D /* ViewController.swift */; };
 		57CBFAE620CA30D4004ED51D /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CBFAE520CA30D4004ED51D /* PickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		573DA67B20CE376F001BBFE5 /* FinishRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegisterViewController.swift; sourceTree = "<group>"; };
-		573DA67F20CE747B001BBFE5 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		573DA68120CE79D3001BBFE5 /* radioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radioButton.swift; sourceTree = "<group>"; };
+		573DA68520CE83BB001BBFE5 /* PlistService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistService.swift; sourceTree = "<group>"; };
+		573DA68720CE8CA3001BBFE5 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
 		574D661820C8D4A600D46A71 /* Register.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Register.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		574D661B20C8D4A600D46A71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		574D662020C8D4A600D46A71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,10 +38,9 @@
 		574D662F20C8D4E400D46A71 /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
 		574D663120C9197500D46A71 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		574D663320C91D3D00D46A71 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		574D663720C92A8B00D46A71 /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		574D663720C92A8B00D46A71 /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
 		574D663C20C92CB100D46A71 /* Districts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Districts.swift; sourceTree = "<group>"; };
 		574D663E20C930A300D46A71 /* DistrictsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictsTableViewController.swift; sourceTree = "<group>"; };
-		57CBFAE320CA2083004ED51D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57CBFAE520CA30D4004ED51D /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				574D663320C91D3D00D46A71 /* DataService.swift */,
+				573DA68520CE83BB001BBFE5 /* PlistService.swift */,
 				574D663120C9197500D46A71 /* City.swift */,
 				574D663C20C92CB100D46A71 /* Districts.swift */,
 			);
@@ -102,11 +101,9 @@
 		574D663B20C92C8200D46A71 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				574D663720C92A8B00D46A71 /* MasterTableViewController.swift */,
+				574D663720C92A8B00D46A71 /* CitiesTableViewController.swift */,
 				574D663E20C930A300D46A71 /* DistrictsTableViewController.swift */,
-				57CBFAE320CA2083004ED51D /* ViewController.swift */,
-				573DA68120CE79D3001BBFE5 /* radioButton.swift */,
-				573DA67F20CE747B001BBFE5 /* CustomButton.swift */,
+				573DA68720CE8CA3001BBFE5 /* GenderViewController.swift */,
 				573DA67B20CE376F001BBFE5 /* FinishRegisterViewController.swift */,
 				57CBFAE520CA30D4004ED51D /* PickerViewController.swift */,
 			);
@@ -188,15 +185,14 @@
 			files = (
 				573DA67C20CE376F001BBFE5 /* FinishRegisterViewController.swift in Sources */,
 				574D661C20C8D4A600D46A71 /* AppDelegate.swift in Sources */,
+				573DA68620CE83BB001BBFE5 /* PlistService.swift in Sources */,
 				574D663D20C92CB100D46A71 /* Districts.swift in Sources */,
 				57CBFAE620CA30D4004ED51D /* PickerViewController.swift in Sources */,
-				573DA68020CE747B001BBFE5 /* CustomButton.swift in Sources */,
 				574D663220C9197500D46A71 /* City.swift in Sources */,
-				574D663820C92A8B00D46A71 /* MasterTableViewController.swift in Sources */,
-				57CBFAE420CA2083004ED51D /* ViewController.swift in Sources */,
+				574D663820C92A8B00D46A71 /* CitiesTableViewController.swift in Sources */,
+				573DA68820CE8CA3001BBFE5 /* GenderViewController.swift in Sources */,
 				574D663420C91D3D00D46A71 /* DataService.swift in Sources */,
 				574D663F20C930A300D46A71 /* DistrictsTableViewController.swift in Sources */,
-				573DA68220CE79D3001BBFE5 /* radioButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

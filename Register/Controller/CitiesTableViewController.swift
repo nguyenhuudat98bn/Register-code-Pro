@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MasterTableViewController: UITableViewController {
+class CitiesTableViewController: UITableViewController {
 //    var people = [City]()
 //    let endcodeData = NSKeyedArchiver.archivedData(withRootObject: pe)
     override func viewDidLoad() {
@@ -32,7 +32,7 @@ class MasterTableViewController: UITableViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        DataService.shared.arr = []
+//        DataService.shared.arr = []
 
         tableView.reloadData()
     }
@@ -60,7 +60,8 @@ class MasterTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 //        DataService.shared.saveData["Cities"] = DataService.shared.cities[indexPath.row].name
         UserDefaults.standard.set(DataService.shared.cities[indexPath.row].name, forKey: "City")
-        DataService.shared.filter(index: indexPath)
-        print(DataService.shared.arr)
+        DataService.shared.selectedDistrict = DataService.shared.cities[indexPath.row].cityCode
+//        DataService.shared.filter(index: indexPath)
+//        print(DataService.shared.arr)
     }
 }

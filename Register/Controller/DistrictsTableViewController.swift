@@ -32,18 +32,19 @@ class DistrictsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return DataService.shared.arr.count
+        return DataService.shared.districts.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-        cell.textLabel?.text = DataService.shared.arr[indexPath.row]
+        cell.textLabel?.text = DataService.shared.districts[indexPath.row].name
         
         return cell
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        UserDefaults.standard.set(DataService.shared.arr[indexPath.row], forKey: "District")
+        UserDefaults.standard.set(DataService.shared.districts[indexPath.row].name, forKey: "District")
+
 //        DataService.shared.saveData["Districts"] = DataService.shared.districts[indexPath.row].name
     }
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
